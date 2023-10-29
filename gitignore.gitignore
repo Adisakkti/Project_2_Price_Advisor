@@ -1,0 +1,6 @@
+# ignore jupyter cache files
+.ipynb_checkpoints/
+__pycache__/
+
+# for Mac users
+.DS_Store
