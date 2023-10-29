@@ -60,9 +60,9 @@ Many homeowners face challenges in accurately valuating their properties when lo
 9. Lat distance
 10. District
 11. Property type 
-### when using Ridge regression, the model performs the best and is the most accurate based on all the experiments conducted so i reccomended to use Ridge Regression
+#### when using Ridge regression, the model performs the best and is the most accurate based on all the experiments conducted so i reccomended to use Ridge Regression
 
-![Model Performance](for_submit/pictures/modelperformance.png)
+![Model Performance](../Pictures/modelperformance.png)
 
 
 
@@ -76,3 +76,8 @@ Many homeowners face challenges in accurately valuating their properties when lo
 
 
 
+
+
+```python
+
+```
