@@ -49,34 +49,39 @@ Many homeowners face challenges in accurately valuating their properties when lo
 ## Conclusions and Recommendations
 
 **The model will be able to accurately assess house prices if we select appropriately sized features, good features that are relevant to the price. Therefore, I recommend these features that will allow the model to calculate prices accurately**
-1. Bedroom 
-2. Bathroom  
-3. Nearby station
+1. Number of Bedroom 
+2. Number of Bathroom  
+3. Number of Nearby station
 4. Floor area 
-5. Floor level
-6. Nearby shop 
-7. Nearby station
-8. Long distance 
-9. Lat distance
-10. District
-11. Property type 
+5. Number of Floor level
+6. Number of Nearby shop 
+7. Number of floor level
+8. Longtitude distance 
+9. Latitude distance
+10. Province
+11. District
+12. Property type 
 
-#### the most influential feature on price is `Latitude distance`. It has a negative correlation, meaning that if the distance from the median latitude of the data is large, the price will decrease.
-**Recommendation: If your house has a `large floor area` and is `located close to shops`, there is a higher likelihood that the price of your house will be higher. Additionally, houses in Bangkok tend to have the highest prices compared to the other two provinces**
+#### the most influential feature on price is `Latitude distance` . It has a negative correlation, meaning that if the distance from the median latitude of the data is large, the price will decrease.
 
-### when using Ridge regression, the model performs the best and is the most accurate based on all the experiments conducted so i reccomended to use Ridge Regression
+####  Recommendation: If your house has a `large floor area` and is `located close to shops`, there is a higher likelihood that the price of your house will be higher. Additionally, houses in Bangkok tend to have the highest prices compared to the other two provinces
 
-![Model Performance](for_submit/pictures/modelperformance.png)
+#### when using Ridge regression, the model performs the best and is the most accurate based on all the experiments conducted so i reccomended to use Ridge Regression
 
+| Model          | R2 Score      | RMSE(Baht)                     | 
+|:----------------:|:----------:|:-------------------------------------:|
+| **Linear Regression**   |0.62623 |  1,338,441 | 
+| **Linear Regression with StandardScaler** | 0.66444     | 1,251,252| 
+| **Ridge** | 0.66434| 1,251,502| 
+| **Lasso**      | 0.66429 |1,251,592           | 
 
-
-#  "If my model becomes more accurate, it means that users will trust it and come back to use my model again"
+An RMSE (Root Mean Square Error) of 1,251,502 indicates that the model is making predictions with an average error of approximately 1.25 million baht. In general, a lower RMSE suggests better prediction accuracy. It's important to consider this value in the context of the overall price range of the houses being predicted. Keep in mind that RMSE is a measure of the model's predictive accuracy relative to the scale of the prices in the dataset.
 
 
 
 **Impact:** 
 1. Empowered Homeowners: Provide homeowners with a reliable tool to confidently price their properties, increasing their chances of a successful and profitable sale.
 2. Market Transparency: Increase transparency in the selling process by educating homeowners about the factors influencing property valuations.
-
+3. If the model works correctly, there is a chance that users will return to use the pricing assessing program again, which is profitable for the business.
 
 
