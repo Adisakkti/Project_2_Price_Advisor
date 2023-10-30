@@ -60,19 +60,17 @@ Many homeowners face challenges in accurately valuating their properties when lo
 9. Lat distance
 10. District
 11. Property type 
-### the most influential feature on price is `Latitude distance` . It has a negative correlation, meaning that if the distance from the median latitude of the data is large, the price will decrease.
 
-####  Recommendation: If your house has a `large floor area` and is `located close to shops`, there is a higher likelihood that the price of your house will be higher. Additionally, houses in Bangkok tend to have the highest prices compared to the other two provinces
+#### the most influential feature on price is `Latitude distance`. It has a negative correlation, meaning that if the distance from the median latitude of the data is large, the price will decrease.
+**Recommendation: If your house has a `large floor area` and is `located close to shops`, there is a higher likelihood that the price of your house will be higher. Additionally, houses in Bangkok tend to have the highest prices compared to the other two provinces**
 
-#### when using Ridge regression, the model performs the best and is the most accurate based on all the experiments conducted so i reccomended to use Ridge Regression
+### when using Ridge regression, the model performs the best and is the most accurate based on all the experiments conducted so i reccomended to use Ridge Regression
 
-| Model          | R2 Score      | RMSE                     | 
-|:----------------:|:----------:|:-------------------------------------:|
-| **Linear Regression**   |0.62623 |  1,338,441 | 
-| **Linear Regression with StandardScaler** | 0.66444     | 1,251,252| 
-| **Ridge** | 0.66434| 1,251,502| 
-| **Lasso**      | 0.66429 |1,251,592           | 
+![Model Performance](for_submit/pictures/modelperformance.png)
 
+
+
+#  "If my model becomes more accurate, it means that users will trust it and come back to use my model again"
 
 
 
