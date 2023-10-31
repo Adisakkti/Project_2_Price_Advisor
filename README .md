@@ -39,6 +39,7 @@
 ## Problem Statement
 Many homeowners face challenges in accurately valuating their properties when looking to sell. The absence of reliable and data-driven valuation tools often leads to overpricing or underpricing, potentially resulting in delayed sales or missed opportunities. There is a need for an accessible and accurate tool that empowers homeowners to set optimal asking prices and maximize their returns within a reasonable time frame.
 
+**Target Audienc** : Homeowners or seller who want to sell their property
 
 **Questions:**  
 1. How can the Model ensure accurate property valuations while considering various factors like location, size, facilities, and market trends?
